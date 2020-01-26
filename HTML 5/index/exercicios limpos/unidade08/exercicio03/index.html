@@ -1,0 +1,49 @@
+<!doctype html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso de HTML5 - Menu Vertical</title>
+
+        <!--Criando menu vertical-->
+        <style>
+			body {
+				font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+				font-size:13px;
+			}
+			
+			ul {
+				margin: 0; padding: 0;  /*encostar na margem à esquerda*/
+                width: 200PX; /*largura máxima*/
+			}
+			
+			li {
+                list-style: none; /*tirar os pontos da lista*/
+			}
+			
+			li a {
+				display: block; /*manter o link na linha inteira, não apenas no nome*/
+                text-decoration: none; /*tirar linha sublinhada */
+                background-color: #09C; /*cor do fundo*/
+                margin-bottom: 1px; /*aumentar a distância entre um e outro*/
+                padding: 5px 3px; /*pra cima e pra baixo: 5px e 3px para os lados*/
+                color: #FFF; /*cor da fonte*/
+			}
+			
+			li a:hover { /*mudança de cor ao passar o mouse por cima*/
+                background-color: #6CF;
+			}
+        </style>
+        
+        </head>
+
+        <body>        
+            <ul>
+                <li><a href="brasil.html">Brasil</a></li>
+                <li><a href="portugal.html">Portugal</a></li>
+                <li><a href="angola.html">Angola</a></li>
+                <li><a href="mocambique.html">Moçambique</a></li>
+                <li><a href="caboverde.html">Cabo Verde</a></li>
+            </ul>
+        </body>
+</html>

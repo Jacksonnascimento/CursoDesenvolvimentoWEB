@@ -1,0 +1,3 @@
+consulta na w3
+
+exemplo: w3 the article element

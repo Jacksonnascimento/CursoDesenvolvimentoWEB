@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR" >
+    <head>
+        <title>Unidade 02 - Elemento Head</title>
+        <meta charset="utf-8">   
+        <!--meta ajuda os robôs da internet a entender o que tem na página-->
+        <!--um buscador pode entender o que tem na págian através dos metadados-->
+        <meta name = "author"    content="Jackson Santos Nascimento">  <!--informar o autor da página-->
+        <meta name = "generator" content="Visual Studio Code">  <!--software que criou esta página-->
+        <meta name = "keywords"  content="HTML5, Curso HTML, CSS, JS">   <!--palavras chaves a serem encontradas na página--> 
+        <meta name = "description"  content="Página do curso HTML5" > <!--descrição da página-->
+        <meta name = "application-name" content="Nascimento">  <!--nome da aplicação-->
+
+        <meta http-equiv="refresh" content="4">   <!--refresh: atualizar a página em N segundos-->
+
+        <script>
+            function sorteioNumero(){
+                resultado.innerHTML = Math.random() * 50;
+            }
+            window.onload = sorteioNumero;
+        </script>
+    </head>
+    <body>
+        <p id="resultado"></p>
+    </body>
+</html>
